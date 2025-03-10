@@ -1,0 +1,78 @@
+/* Definindo estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f0f6; /* Rosa claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #D5006D; /* Rosa escuro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Estilo da seção de introdução */
+.intro {
+    background-color: #FF80AB; /* Rosa claro */
+    color: white;
+    padding: 20px;
+}
+
+.intro h2 {
+    font-size: 1.8em;
+}
+
+.intro p {
+    font-size: 1.2em;
+}
+
+/* Estilo do conteúdo principal */
+.conteudo {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.conteudo h2 {
+    font-size: 1.8em;
+    color: #D5006D; /* Rosa escuro */
+}
+
+.conteudo ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.conteudo li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #FF80AB; /* Rosa claro */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #D5006D; /* Rosa escuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
